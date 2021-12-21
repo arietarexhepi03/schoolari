@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<!-- Brand Google Tag Manager -->
+
+<meta charset='utf-8'>
+<title>Courses - arieta&#39;s School</title>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='en' property='og:locale'>
+<meta content='https://arieta-s-school.coursify.me/' property='og:url'>
+<meta content='arieta&#39;s School' property='og:title'>
+<meta content='arieta&#39;s School' property='og:site_name'>
+<meta content='Learn online with arieta' property='og:description'>
+<meta content='https://d1xhm66bwx3o35.cloudfront.net/multipart/1280x365_max/33d3da4518c130dadb473fffc1ea71c8.PNG' property='og:image'>
+
+<!-- App configurations -->
+<script>
+//<![CDATA[
+var appConfig = { isDebug: false }
+
+//]]>
+</script>
+<!-- I18n for javascript -->
+<script>
+//<![CDATA[
+window.locale = 'en'
+window.I18n = {"open_ticket":"Open ticket","course_archived":"Course archived","course_not_be_unarchived":"It was not possible to unarchive the course. Contact technical support.","course_unarchived_successfully":"Course successfully unarchived.","are_you_sure_unarchive_course":"Are you sure you want to unarchive the course?","course_not_be_archived":"The course could not be archived. Contact technical support.","course_archived_successfully":"Course archived successfully.","are_you_sure_archive_course":"Are you sure you want to archive the course?","converted_file_text":"Your file has been converted to display correctly on all devices.","converted_file":"Converted file","converting_text_2":"In the meantime, keep registering your content information :)","converting_text":"Your file is now being converted to work on all devices.","converting_file":"Converting file...","imported_content":"Imported content","imported_text":"Your file has been successfully imported from your computer.","enroll_form":{"disclaimer":"Coursify.me charges sales commissions on all enrollments in paid courses.\u003cbr\u003eThis charge is made on the 1st of each month regarding your enrollment in paid courses from the previous month.\u003cbr\u003eYou have until the 31st of each month to exclude test registrations in order not to be charged on the 1st.\u003cbr\u003e\u003ca target=\"_blank\" href=\"https://support.coursify.me/hc/en-us/articles/360013177599-How-fees-are-charged-for-enrollment-in-paid-courses-\"\u003eSee more information\u003c/a\u003e"},"block_upload":{"plan_and_course_info_free":"Your current plan is \u003cstrong\u003eStarter\u003c/strong\u003e and the payment method for this course is \u003cstrong\u003efree\u003c/strong\u003e.","plan_and_course_info_paid":"Your current plan is \u003cstrong\u003eStarter\u003c/strong\u003e and the payment method for this course is \u003cstrong\u003epaid\u003c/strong\u003e.","only_for_paid":"In the \u003cstrong\u003eStarter Plan\u003c/strong\u003e file uploads are only allowed for \u003cstrong\u003epaid\u003c/strong\u003e courses.","paid_min":"In the \u003cstrong\u003eStarter Plan\u003c/strong\u003e uploading files is only allowed for paid courses with sales value from \u003cstrong\u003e%{value}\u003c/strong\u003e.","allowed_platforms":"For this course you can upload your content via YouTube or Vimeo for free, click on the side menu to choose the desired platform.","allowed_platforms_edit":"For this course you can upload your content via YouTube or Vimeo for free.","upsell":"You can also subscribe to the Pro Plan or Business Plan to have file uploads always available in free and paid courses.","or":"or","update_to_paid":"Click here and change your course to paid.","update_price":"Click here to increase the value of your paid course."},"file_converting":"Your file is being converted to work on all types of devices. Continue registering the content information.","upload_complete_message":"Wait a few seconds! We are analyzing your file.","subscription_plan":"Subscription plan","maximum_size_per_file":"Maximum size per file","upload_limit_title_table":"Understand the limit of each Coursify.me plan:","help_center":"Help Center","video":"Video","you_need_fill_this_field":"You need fill this field","enter_interface_text":"Enter the text for appear here","change_lesson_content":"Change lesson content","publish_your_first_course":"It's time to publish your first course :)","create_your_first_instructor":"Click the add new button to create your first teacher.","cookies":{"msg":"\u003cstrong\u003eWe use cookies\u003c/strong\u003e to give you the best online experience. By using our website, you agree to our privacy policy. ","more":"Learn more here.","button":"Got it!"},"add":"Add","course_not_destroyed":"The course has not been deleted because there are already enrollments associated with it.","no_instructor_available":"No teacher available.","no_videos_found":"Vo videos found.","none_integrations":"None","new":"New","publish_paid_course":"Publish paid course","configure_your_informations_for_receive_payments":"Configure the information to receive payments","receive_payments":"Receive payments","receive_payments_explanation_1":"The Coursify.me offers %{integrations} as options for you to receive payments.","receive_payments_explanation_2":"That way, you receive payments directly into your account on one of these platforms.","receive_payments_explanation_3":"Before you publish your paid course, set whether you prefer to use %{integrations} as a payment platform.","update_receive_payments_explanation_generic":"To receive in =CURRENCY, =INTEGRATION must be configured as a payment method.","update_receive_payments_explanation_1":"Your course is set to use %{currency} currency.","update_receive_payments_explanation_2":"To receive in %{currency} is required to use %{integration} as payment method.","update_receive_payments_explanation_3":"Please perform the integration with %{integration} or change the configuration of your course to use another currency.","go_to_payment_configurations":"Go to payment configurations","go_to_payment_configurations_small":"Configurations","go_to_configuration":"Configure %{integration}","dollar":"USD (Dollar)","euro":"EUR (Euro)","real":"BRL (Real)","go_to_integrations_page":"Go to integrations page","what_platform_you_want_use_for_receive_payments_of_your_students":"What platforms do you want to use to receive payments from students?","publish_paid_course_affirmation":"Publish paid course!","how_do_you_wish_sign_in":"How do you wish sign in:","as_student":"Student","school_owner":"School owner","publish_the_course":"Publish the course","check_your_informations_for_receive_payments":"Check your informations for receive payments","customer_payment_information_confirm":"Your account that Coursify.me be integrated with \u003cstrong\u003e%{payment_integration}\u003c/strong\u003e and configurated for receive payments in \u003cstrong\u003e%{billing_currency}\u003c/strong\u003e. If you want change the configurations, click in the button \u003cstrong\u003eEdit information\u003c/strong\u003e below. Else, publish your course.","customer_not_have_payment_information":"You has not yet set your account for receive payments for their courses. Edit the your informations for can publish your course.","edit_course_informations":"Edit course information","presentation_video":"Presentation video","fail_presentation_video":"Video URL is invalid","add_presentation_video":"Add presentation video","edit_presentation_video":"Edit presentation video","presentation_video_explanation":"Upload a presentation video about your course.","video_upload":"Video upload","video_url":"YouTube or Vimeo video URL","video_youtube_url":"YouTube video URL","youtube_video_url_example":"Example https://www.youtube.com/watch?v=Lqs2oIBFPxI","what_you_will_learn":"What you will learn?","about_instructor":"About the teacher","about_instructors":"About the teachers","instructor_explanation":"About the teacher","more_info":"More info","course_not_have_description":"Your course doesn't have a description yet. Click Edit to write an overview.","course_not_have_instructor":"Your course doesn't have a teacher. Click in the button bellow to choose one or for create a new.","free_lecture":"Free class","payed_lecture":"The student must enroll in the course to view this content","presentation_video_allowed_filetypes":"The supported files are \u003cspan\u003e.mp4\u003c/span\u003e, \u003cspan\u003e.ogv\u003c/span\u003e or \u003cspan\u003e.webm\u003c/span\u003e.","select_video":"Select video","select_other_video":"Update video","choose_video":"Choose a video","presentation_video_description":"Type: %{type} Size: %{size}","add_video":"Add a video","add_a_presentation_video_of_your_course":"Add a video to present your course to your potential students.","no_selected_video":"No video selected","no_presentation_selected_video":"No presentation video selected","invalid_format":"Invalid file, please select a vídeo in the allowed filetypes.","confirm_your_paypal_email_for_receive_payments":"Confirme your Paypal email for receive payments:","choice_a_category":"Choose a category","technology":"Technology","make_your_enrollment":"Buy Now","make_your_free_enrollment":"Start Learning Now","access_course":"Access the course","choose_existing":"Choose an existing one","add_new":"Add new","select_instructor":"Select a teacher","select_instructor_explanation":"Select one teacher for your course or add a new","edit_the_instructor_informations":"Edit the teacher informations","configure_the_informations_of_lecture":"Configure the informations of lesson","list_of_available_videos_in_your_account":"List of available videos in your account","add_video_link":"Insert video link","choose_the_file_with_the_lecture_content":"Choose the file with the lesson content","choose_the_content_of_lecture":"Choose the content of lesson","section_description":"Section %{number}: %{name}","content_description":"Lesson %{number}: %{name}","create_section":"Add a new section","create_lecture":"Create Lesson","create_testimony":"Add testimonial","create_featured_testimony":"Add highlighted text testimonial","edit_featured_testimony":"Edit highlighted text testimonial","edit_testimony":"Edit highlighted text testimonial","create_section_submit":"Create section","edit_section":"Edit this section","enter_a_testimonial":"Fill the testimonial information","create_sections_for_the_organize_the_course_lectures":"Create sections for the organize the course lessons","about_course":"About the course","testimony_name":"Full Name","testimony_office":"Author's testimony","testimony_empty":"Your course doesn't have a text or video testimonial. Click in the button below to create a new one.","testimony_featured_empty":"Your course doesn't have a highlighted text testimony. Click in the button below to create a new one.","course_testimonies":"Testimonials","course_curriculum":"Course curriculum","start_your_course":"Begin your course by creating the sections and then the lessons within each section.","publish_course":"Publish course","published_course":"Published Course!","value":"Price","value_plan":"Value","start_now":"Start right now!","course_created_by":"Course created by","add_social_media":"Add social media","edit_social_media":"Edit social networks","example":"Example: %{url}/user","my_networks":"My networks","inform_the_social_networks_that_your_want_to_display_in_school_page":"Inform the social networks that you want to display in your school page","edit_informations":"Edit information","are_you_sure":"Are you sure you want to remove this %{item}?","are_you_sure_suspend":"Are you sure you want to suspend %{item}?","choice":"Choose","currency":"Currency","register_your_payment_mail_before_continue":"Register your payment mail before continue","create_page_submit":"Create page","create_course_submit":"Create course","no_course_yet":"This school doesn't have courses yet.","actions":"Actions","panel":"Dashboard","my_school":"My school","more_details":"More details","filename":"Filename","size":"Size","download":"Download","pages":"Pages","selected":"Selected","select":"Select","cancel":"Cancel","view":"View","choose_this_video":"Choose this video","choose_the_video":"Choose the video","loading_videos":"Wait loading videos of your account...","loading":"Loading...","dashboard":"Go to dashboard","confirm":"Are you sure want to remove?","no_curriculum":"No content available.","edit_content":"Edit lesson","edit_quiz":"Edit Quiz","new_content":"New content","add_content":"Add content","choose_content":"Choose a content","content_from":"Content imported from","plase_add_content":"Please add content before proceeding.","from":"Import from","my_computer":"My computer","my_account":"My account","logout":"Logout","login":"Login","sign_up":"Sign Up","other_courses":"Other courses","take_this_course":"Take this course for free","price":"Price:","instructors":"Teachers","students":"Students","student":"Student","add_course":"Add course","your_school_no_have_courses":"Your school doesn't have courses yet!","this_school_no_have_courses":"This school doesn't have courses yet!","your_school_no_have_instructors":"Your school doesn't have teachers yet!","this_school_no_have_instructors":"This school doesn't have teachers yet!","create_my_first_course":"Create my first course!","add_page":"Add page","no_instructor_information":"Information about the teacher not available.","add_instructor":"Add teacher","add_first_instructor":"Create my first teacher!","add_testimony":"Add testimonial","new_instructor":"New teacher","create_instructor":"Add a new teacher","edit_instructor":"Edit teacher","register_a_new_instructor_for_your_course":"Register a new teacher for your courses","taught_by":"Taught by","edit_this_course":"Edit this course","edit_brand":"Edit your school","see_statistics":"View statistics","free_customer":"Free","confirm_remove_page":"Are you sure you want to remove this page?","remove_page":"Delete page","new_page":"New page","active":"Course published!","inactive":"Course not Published","not_found":"Course not Found!","confirm_remove_course_has_enrolls":"This course has enrollments.","confirm_remove_course":"Are you sure you want to remove?","remove_course":"Remove this course","smal_remove_course":"Delete course","new_course":"New course","save":"Save","saving":"Saving...","save_changes":"Save changes","back":"Back","access_content":"Access lesson content","lesson_content":"Classroom content","create_course":"Create course","create_content":"Create lesson","create_quiz":"Create new Quiz","create_page":"Create page","edit_course":"Edit course","edit_page":"Edit page","config_the_basic_information_of_course":"Configure the basic information of the course","config_the_informations_of_a_your_school_page":"Fill in the basic information about your school's page","edit_the_informations_of_a_your_school_page":"Edit the basic information of your school's page","courses":"Courses","edit_title":"Edit your school page","brand_title":"School title","brand_sub_title":"School sub title","edit":"Edit","remove":"Remove","delete":"Delete","suspend":"Suspend","language":"Language","page_title":"Online Courses - Anytime, Anywhere","footer_name":"© Coursify.me %{year}","edit_mode":"Edit mode","integrating_with_other_plataforms":"Do you want to integrate with other platforms?","enroll_in_this_course_for":"Enroll in this course for %{value}","your_instructor":"Your teacher","choose_this_file":"Choose this file","loading_files":"Loading files...","cloud":"Cloud","loading_more_videos":"Loading more videos","free":"Free","paid":"Paid","section":"Section","add_section":"Add section","start_creating_your_course_curriculum":"Start creating your course curriculum","confirm_remove_section":"Are you sure you want to remove this section and all their contents?","remove_section":"Remove this section","create_your_first_lecture":"Create your first lesson","step_for_two":"Step %{value} of 2","step_for_js":"Step XX of 2","add_lecture":"Add lesson","add_quiz":"Add quiz","next":"Next","prev":"Back","search_for":"Search for","search":"Search","lecture":"Lesson","upload_from_computer":"Choose from your computer","choose_file":"Choose file","choosed_file":"Selected file","upload_from_dropbox":"Upload from Dropbox","choose_from_dropbox":"Choose from Dropbox","choose_from_your_youtube_account":"Choose from YouTube","choose_from_your_vimeo_account":"Choose from Vimeo","placeholder_name_content":"For example: What does the course cover?","placeholder_description_content":"The description about the lesson.","computer":"Computer","video_not_found":"Video not found.","video_not_found_vimeo":"Vimeo only offers search for your public videos.","create_your_course_curriculum":"Create your course curriculum","start_creating_your_first_lecture":"Start creating your first lesson","choose":"Choose","total_sale":"Total sales: %{sale}","total_sale_txt":"Total sales","total_enrolls_txt":"Total enrollment","total_students_txt":"Total students","integrations":"Integrations","custom_fields":"Custom fields","system_fields":"System fields","text_system_fields":"All students by default can fill the fields below.","my_custom_fields":"My custom fields","empty_custom_fields":"There are no custom fields created.","empty_custom_fields_order":"There are no custom fields created or active.","text_my_custom_fields":"Define your custom fields, what additional data you want to collect from your students.","new_custom_field":"New custom field","order":"Sort","field_name":"Field name","field_type":"Field Type","required":"Required","active_field":"Active","text":"Text paragraph","string":"Text","file":"File","message_payment_real":"PagSeguro, PayPal or Stripe","message_payment_euro_dolar":"PayPal or Stripe","hint_active":"If this field is checked it means that it will be displayed to students on the registration forms.","hint_required":"If this field is checked it means that the student will be required to fill in the field to register for their courses and school.","hint_for_student":"This is the name that will appear for the student","hint_for_you":"This is the type of field that only appears to you","create_custom_field":"Create new custom field","edit_custom_field":"Edit custom field","config_custom_field_to_fill":"Set up a new field for your students to fill out","edit_custom_field_to_fill":"Edit a custom field for your students to fill out","drag_to_order":"Drag to change the order of custom fields","order_custom_fields":"Sort custom fields","updated_custom_field":"Custom field successfully updated!","created_custom_field":"Custom field created successfully!","error_updated_custom_field":"Custom field has not been updated!","error_created_custom_field":"It was not possible to create the custom field!","deleted_custom_field":"Custom field removed!","error_deleted_custom_field":"It was not possible to remove the custom field!","video_preview":"Video Preview","social_media":{"facebook":"Share link on Facebook","twitter":"Share link on Twitter","google_plus":"Share link on Google+"},"contents":{"need_youtube_video":"You need to add the YouTube video link.","need_upload_file":"You need to select a file.","invalid_format":"Invalid format. Send a file with one of the following formats: mp4, webm, ogv, png, jpeg, jpg, gif, mp3, ogg, doc, docx, odt, ppt, pptx, odp, xls, xlsx or ods.","dropbox_in_proccess":"Your file %{file} is being processed and then will be available. Meanwhile, you can continue with lesson register and save.","student_dropbox_in_proccess":"The file %{file} is being processed and will soon be available. Meanwhile you can view other content.","loading":"Loading..."},"preview":{"preview":"Preview","login":"Login for students already registered","register":"Registration for new students","out":"Exit preview","enroll":"Clicking here the student can enroll in this course","others":"Here the student has access to other courses from your school","demo":"When a student clicks on a demo content, he will be able to see it, even without being registered."},"colors":{"default_coursify":"Coursify.me Default","grayscale":"Grayscale","reds":"Red","restore_original":"Restore original","violet":"Violet","yellow":"Sun Yellow","green":"Mint Green","blue":"Sky Blue","pink":"Old Pink","customize_colors":"Customize colors","customize":"Customization","background_field":"Background color","primary_color_field":"Primary color","secondary_color_field":"Secondary color","links_field":"Links color","buttons_color_field":"Button color","title_color_field":"Title color","subtitle_color_field":"Subtitle color","navbar_background_field":"Navbar color","navbar_active_background_field":"Navbar active color","price_button_color_field":"Price buttons color","social_button_field":"Social media buttons color","show_advanced_configs":"Show advanced configs","hide_advanced_configs":"Hide advanced configs"},"instructor_description":"Teacher: %{instructor}","instructors_description":"Teachers: %{instructors}","read_more":"Learn more...","payment_forms":"Payment forms","allowed_filetypes_for_import":"The supported file formats are: mp4, webm, ogv, png, jpeg, jpg, gif, mp3, ogg, doc, docx, odt, ppt, pptx, odp, xls, xlsx, ods and pdf.","limit_file_size":"Maximum file size: 300 MB","limit_file_size_300mb":"Maximum file size: 300 MB","limit_file_size_1gb":"Maximum file size: 1 GB","limit_file_size_5gb":"Maximum file size: 5 GB","paypal_instructions":{"title":"Set PayPal to Receive Notifications of Payments","intro_1":"If you are creating a paid course it is important that you configure your PayPal account of the seller.","intro_2":"This setting is important because it allows PayPal notify Coursify.me about payments in your school.","intro_3":"Only with this setting that paid courses will work for your students.","instructions_title":"Follow the instructions below:","instructions_1":"1) Go to your seller's PayPal account https://www.paypal.com","instructions_2":"2) Look for the section \"Selling Tools\"","instructions_3":"3) Click the \"Seller Preferences\"","instructions_4":"4) On the page \"My Profile\" look for \"Instant payment notifications\" and click in \"Update\"","instructions_5":"5) On the \"Instant Payment Notification (IPN)\" click in \"Edit Settings\"","instructions_6":"6) Add in the field \"Notification URL\" the address below:","instructions_6_link":"https://coursify.me/gateways/payments/paypal","instructions_7":"7) Check the \"Receive IPN messages (Enabled)\"","instructions_8":"8) Click the \"Save\"","conclusion_1":"Ready! Now your school will automatically receive payment notifications about enrollment of your students.","conclusion_2":"If you've done this configuration disregard this message.","ok_publish":"Ok, publish this course!"},"course_payment_info":"Payment Information*","course_price_in":"Price ","course_payment_type":"Type","course_installment_1":"Installment payment up to","course_installment_2":"of ","course_installment_full":"Up to %{number} x %{value}","course_promotional_value":"Promotional price ","add_promotional_price":"Add promotional price","add_installments":"Add installments","course_special_to_date":"Valid until","interest-free":"(interest-free)","pay_using":"Pay using %{mode}","delete_instructor":"teacher","delete_section":"section","delete_student":"student","delete_comment":"comment","delete_content":"content","delete_video":"video","delete_testimony":"testimony","delete_integration":"integration","delete_enroll":"enroll","process_video":"Please wait while the video is being loaded.","cascade_comments":"By deleting this content, all comments made on it will be deleted.","cascade_enrolls":"When you delete the student, all your enrollments will be excluded","discount":"OFF","an_error_occurred,_please_try_again_later":"An error occurred, please try again.","an_error_occurred_payment_url":"An error has occurred, please try again later or contact the school via email %{email}.","plan":{"name":{"starter":"Starter","pro":"Pro","business":"Business"},"payment":{"monthly":"Monthly","yearly":"Yearly","type_monthly":"per month","type_yearly":"per year","error":{"card_code":{"error_01":"Transaction referred by the issuer","error_05":"Unauthorized transaction","error_08":"security code is invalid","error_51":"Insufficient funds","error_54":"Card expired","error_57":"Unauthorized transaction","error_78":"Card not unlocked by holder","error_N7":"Unauthorized transaction. Security code is invalid.","other":"Unauthorized transaction. Invalid data"}}},"choose_your":"Your current plan","discount":"%{value}% Off!","added_on":"Signed in","expires":"Valid until","type":"Billing type","choose_another":"Choose the best plan for you!","change":{"success":"Successful payment. Plan updated!","error":"Error updating plan!"},"create":{"success":"Plan payed succeful!","error":"Error in buying plan!"},"payment_form":{"credit_card":"Credit Card"},"change_plan_modal":{"title":"Upgrade to have your %{feature}","title_b":"Change your plan","subtitle":"Verify Coursify.me's plans and choose the best plan for you!"}},"this_is_your_plan":"This is your plan!","course_publish_menu":{"publish_course":"Publish course","view_statistics":"View statistics","view_comments":"View comments","view_students":"View students","delete_course":"Delete course","course_published":"Course published","unpublish_course":"Unpublish course","archive_course":"Archive course","unarchive_course":"Unarchive the course"}}
+window.currencies = [{"key":"EUR","symbol":"€","description":"EUR (Euro)","mask":"#.##000.000.000.000.000,00","delimiter":","},{"key":"BRL","symbol":"R$","description":"BRL (Real)","mask":"#.##000.000.000.000.000,00","delimiter":","},{"key":"USD","symbol":"$","description":"USD (Dollar)","mask":"#,##000,000,000,000,000.00","delimiter":"."}]
+
+//]]>
+</script><!-- App CSS's -->
+<link rel="stylesheet" media="all" href="https://d3orlcfe999ser.cloudfront.net/assets/frontend-f5fe8b61a6e606c10a23c5a0ba3f3173.css" />
+<style>
+  .static-backdrop::before {
+    background-image: url("https://d1xhm66bwx3o35.cloudfront.net/multipart/1280x365_max/33d3da4518c130dadb473fffc1ea71c8.PNG");
+  }
+</style>
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+<![endif]-->
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://d1xhm66bwx3o35.cloudfront.net/multipart/16x16_max/29b439612303d80c79b717e83e05bf36.PNG" />
+<!-- App javascript's -->
+<script src="https://d3orlcfe999ser.cloudfront.net/assets/frontend-8337cdd382c5bec5834c0a1ab32a6b55.js"></script>
+<!-- Dropbox chooser -->
+<script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="9a6vagrwaplsy4x"></script>
+<script>
+  $(document).ready(function(){
+    if(window.screen.width < 768){
+      $('head').append('<style>.static-backdrop::before { background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://d1xhm66bwx3o35.cloudfront.net/multipart/1280x365_max/33d3da4518c130dadb473fffc1ea71c8.PNG"); }</style>');
+    }
+  });
+</script>
+<script>
+  window.brand_slug = 'arieta-s-school'
+</script>
+<style>
+  body{
+    background-color: #f3f2fb !important;
+  }
+  
+  .about-course .description .course-description,
+  .about-course .description .course-description p,
+  .about-course .description .course-description li,
+  .about-course .description .course-description ul,
+  .about-course .description .course-description ol,
+  .about-course .description .course-description span,
+  .about-course .description .course-description div:not(.bottom-transparency),
+  .about-course .description .course-description strong,
+  .about-course .description .course-description em,
+  .about-course .description .course-description b,
+  .about-course .description .course-description a,
+  #instructor-description p,
+  #instructor-description li,
+  #instructor-description ul,
+  #instructor-description ol,
+  #instructor-description span,
+  #instructor-description div:not(.bottom-transparency),
+  #instructor-description strong,
+  #instructor-description em,
+  #instructor-description b,
+  #instructor-description a,
+  .about-course .not-have-instructor,
+  .about-course .testimonials #testimonials-list .empty {
+    color: #6356cb !important;
+  }
+  
+  .school-name, .school-name a, .control-account .info a, .course-menu .course-price-and-publish .course-value span.price,
+  .course-menu .course-price-and-publish .course-value span.symbol,
+  .curriculum h4, .about-course h4, .presentation-video-description .video-description .video-title,
+  .box-no-content h5, .no-have-courses h3, .no-have-courses .this-school-not-have, #page-address-replace,
+  .presentation-video-description .description-box .none-video, .testimonials h4, #testimonials-list p.name,
+  .page h2, .instructors h2.title,
+  .presentation-video-input .button-box, .hint span, .choice-instructor-form .instructor h3.title,
+  form .customer_payment_integration_id span.radio label.collection_radio_buttons,
+  #customers-pattern .actived,
+  .pages ul li a:active, .pages ul li a:focus,
+  #customers-pattern.domains-screen .table tr.primary-domain td.title-cell:not(.subdomain-description) span,
+  #customers-pattern.domains-screen .table tr.primary-domain td.actions-cell span,
+  #confirmation-modal .modal-dialog .modal-body p.body-1 strong,
+  .checkbox input[type="checkbox"].custom-checkbox:checked + .icons .icon-checked,
+  .checkbox input[type="checkbox"].custom-checkbox:checked + .icons .icon-unchecked,
+  .checkbox input[type="checkbox"].custom-checkbox:checked + .icons, .radio input[type="checkbox"].custom-checkbox:checked + .icons, .checkbox input[type="radio"].custom-radio:checked + .icons, .radio input[type="radio"].custom-radio:checked + .icons,
+  .paypal-right-instructions ul li p a, .pagseguro-instructions ul li p a, .stripe-instructions ul li p a,
+  #integration-vimeo-cards span.video-not-found, #students-list table thead tr td p.title,
+  .course-students-header tr td p.title,
+  ul.brand-menu-pages .slick-prev:before, ul.brand-menu-pages .slick-next:before, .thead-td-custom-fields,
+  header .new-customer-nav div#mainnav ul li div.subnav ul li a:hover, .course-form .special-price #show-promotional-price,
+  .course-form .special-price #remove-special-price-fields, .course-form .installments #show-installments, .course-form .installments #remove-installments-fields{
+    color: #6c679a !important;
+  }
+  
+  .brand-menu-box ul li.active a, .fixed-menu ul li.active a{
+    border-bottom: 2px solid #6c679a !important;
+    color: #6c679a !important;
+  }
+  
+  .brand-nav, .brand-nav #navbar-collapse-2, header .new-customer-nav,
+  header .new-customer-nav #mainnav{
+    background-color: #967bdc;
+    border-color: #967bdc;
+  }
+  
+  header .new-customer-nav .mainnav-item-link:after{
+    border-top-color: #967bdc;
+  }
+  
+  .static-backdrop h1, .fixed-menu h2, .course-backdrop h1{
+    color: #967bdc !important;
+  }
+  
+  .static-backdrop h2, .course-backdrop p.subtitle, .bottom-menu .brand-description h3{
+    color: #ffffff;
+  }
+  
+  .static-backdrop .social-icons a.social-media, .thumbnail .image .social-icons a.social-media{
+    background-color: #967bdc !important;
+  }
+  
+  .index-courses .course h3, .progress-box .pull-left span, .brand-menu-box ul li a,
+  .control-account .student-links a:hover, .fixed-menu ul li a,
+  .course-menu .brand .brand-description span.brand-title, .course-menu-mobile .description span.course-name, .about-course .instructor h3.title,
+  .curriculum .section .section-header,
+  .content-course .info .caption p.title, .show-student-content main .list-lessons .index-contents .curriculum p.title,
+  #show-student-content main .list-lessons .index-contents .sections-contents .section .section-header,
+  #show-student-content main .content-lesson h4,
+  #comments .list-comments .comment.comment-instructor h6,
+  .instructors .instructor h3.title, #brand-wizards-area .box-title .subtitle,
+  #brand-wizards-area #brand-slug-replace, #yield-content .thumbnails .li .thumbnail .brand-txt p.line span.pull-right,
+  #yield-content .thumbnails .li .thumbnail .brand-txt p.line span.fui-question-circle,
+  .course.customer-course-list .course-explanation ul.infos li span.pull-right,
+  .course.customer-course-list .course-explanation ul.infos li span.fui-question-circle,
+  #course-show .box-new-students .box-content .title-subsection span.right-title,
+  #progress-students table tbody tr td p.percent,
+  .instructor-details .instructor h3.instructor-title,
+  #loading-more-vimeo-videos span.text-primary, #loading-more-videos span.text-primary,
+  .index-courses .course .old-price, .index-courses .course .free,
+  #pricing.customer-pricing .content-plans .header .plans-info .header-title h3.select-plan,
+  #pricing.customer-pricing .compare-plans h2.title, #pricing.customer-pricing .compare-plans h2.title span.txt-yellow,
+  #pricing .content-plans .header #plans .plan p.subtitle,
+  .control-account li span.hello-customer, header .new-customer-nav div#mainnav ul li div.subnav ul li a,
+  #pricing.customer-pricing .content-plans .header #plans .plan#business p.value span.price, header .new-customer-nav div#mainnav ul li div.subnav ul li a.linkSecondColor:hover{
+    color: #967bdc !important;
+  }
+  
+  #comments .instructor p.name, #comments .content-info p.name, .content-details .instructor p.name,
+  .content-details .content-info p.name, .instructor-details .instructor p.name,
+  .instructor-details .content-info p.name,
+  .curriculum .section .lectures .lecture .lecture-content .file .description-box .title,
+  #comments h3, .content-details h3.title, .instructor-details h3,.content-details .content-info h3,
+  .student-courses .course-show .card-course .card-text .progress-box .pull-right span,
+  .student-courses h3.page-title, .student-courses .course-show .card-course .card-text .info h3,
+  .index-courses .course .read-more, .control-account .student-links a, .bottom-menu-inverse a:hover,
+  #show-student-content main .list-lessons .index-contents .curriculum p.title,
+  #show-student-content main .content-lesson .content-show .content-card-bottom p.content-name,
+  .input-group.focus .input-group-btn .btn, #brand-wizards-area .box-title .title, form .payment-container span.radio label.collection_radio_buttons,
+  #yield-content p.lead, body.social_medias #social_medias .course-form-header h3, #yield-content .thumbnails .li .thumbnail .brand-txt p.line span.pull-left,
+  #yield-content .panel-heading, .course.customer-course-list .course-explanation ul.infos li span,
+  #students-list table tr th, #course-show .box .box-header h5, #progress-students table thead th,
+  .customer-panel.modal-open #modal h5#modal-header .comments-title,
+  .customer-panel.modal-open #modal h5#modal-header .content-title,
+  .navbar-left li a.active, .devise-student-modal .devise-student-modal-title, .author-testimony .has_featured p.name,
+  h5.no-course-yet, .customer-no-have-courses h5,
+  .brand-wizard-hint a,body#show-student-content main .content-lesson .content-show .content-card .item a.content-not-preview,
+  #payment_instructions h3.payment-instructions-title, #pricing .content-plans .header #plans .plan h2.plan-title,
+  #pricing .compare-plans .table table thead th, #pricing.customer-pricing .choose a.current_plan,
+  #pricing.customer-pricing .content-plans .header #plans .plan#starter p.value span.price,
+  #pricing.customer-pricing .content-plans .header #plans .plan#pro p.value span.price,
+  #pricing.customer-pricing .content-plans .header #plans .plan#business p.value span.price, header .new-customer-nav div#mainnav ul li div.subnav ul li a.linkSecondColor,
+  #students-list table tr table tr td span.percent{
+    color: #6c679a !important;
+  }
+  
+  .index-courses .course .label, .student-courses .progress-bar, .card-course .card-text a.btn-continue,
+  .content-course .info-bottom .btn-continue, #comments .comments-form form .form-actions input,
+  #show-student-content main .content-lesson .content-show .content-card-bottom a.btn.btn-download,
+  .pagination li.active > a, .pagination li.active > span, .dataTables_paginate li.active > a,
+  .dataTables_paginate li.active > span, .nav-list-vivid > li.active > a, .brand-wizard .brand-wizard-actions .btn-primary,
+  span.navbar-new, #customers-list-courses .btn.btn-primary,
+  .course.customer-course-list .course-footer .btn.btn-show-course,
+  #progress-students table tbody .progress-bar,
+  #uploads_container .progress-bar, .presentation-video-input .button-box .btn-inverse,
+  .integrations ul .active, #modal .edit-student-content #modal-body .modal-actions .submit-edit,
+  .ui-datepicker .ui-datepicker-header, .ui-datepicker .ui-state-active,
+  #customers-pattern .btn.btn-primary.green, #customers-pattern .actived i,
+  #form_registration form .button.btn.btn-primary.btn-large,
+  #customers-pattern.domains-screen .table tr.primary-domain td.actions-cell span i,
+  .mce-window.mce-in .mce-btn.mce-primary, .mce-menu-item-normal.mce-active, .mce-menu-item:hover,
+  form .choose_plan.btn.btn-primary:hover,
+  .control-account .customer-menu-box ul.customer-actions li:hover, #students-list .btn.btn-primary.btn-enroll-students,
+  .select-primary .select2-choice, .select2-drop .select2-highlighted > .select2-result-label,
+  .new-student-enroll-box .btn-new-enroll-students, .modal-md .modal-footer .btn.btn-primary.btn-large.btn-modal-form,
+  #modal .btn-modal-form.btn-primary.create_student_form, #sidebar-toogle-white span.icon-bar,
+  div#mainnav > ul > li:hover, .bootom-cookie-alert, .index-courses .move{
+    background-color: #6c679a !important;
+  }
+  
+  .school-pagination .pagination-btn{
+    background-color: #967bdc !important;
+    border-left: 1px solid #b6a3e7;
+  }
+  
+  .form-control:focus, .search-student-input:focus + span.input-group-btn button.btn, .brand-wizard .form-control:focus, .devise-student-modal .form-control:focus, .input-group.focus .input-group-btn .btn {
+    border-color: #967bdc !important;
+  }
+  
+  .school-pagination .pagination-btn.active{
+    background-color: #967bdc !important;
+    opacity: 0.5;
+  }
+  
+  footer .footer-nav, .bottom-menu, .pagination li > a, .pagination li > span,
+  .dataTables_paginate li > a, .dataTables_paginate li > span,
+  #show-student-content main .list-lessons .index-contents .sections-contents .content.active,
+  body.brand-wizard .btn-inverse, #brand-wizards-area .brand-wizard-actions .btn-cancel,
+  .course.customer-course-list .course-footer .btn.bnt-edit-course, .social-media-form, #upload-link,
+  .box-btn .btn-unchoosed, .list-courses .content-course .info-bottom .btn-curriculum, form .choose_plan.btn.btn-primary,
+  #students-list .btn.btn-primary.btn-edit-student.btn-inverse, #students-list #student .btn.btn-primary.btn-inverse,
+  #students-list #list-students-table #courses-by-student .btn.btn-primary.btn-inverse,
+  .modal-md .modal-footer .btn.btn-inverse.btn-cancel-modal, .modal-md .modal-footer .btn.btn-inverse,
+  #modal .btn.btn-inverse.btn-cancel-modal.btn-modal-form{
+    background-color: #967bdc !important;
+  }
+  
+  footer .brand-description h3, footer .brand-description span{
+    color: white !important;
+  }
+  
+  .bottom-menu .social-media a.social-media, .ui-datepicker .ui-datepicker-prev:hover, .ui-datepicker .ui-datepicker-next:hover{
+    background-color: #b6a3e7 !important;
+  }
+  
+  .coursify-tec{
+    background-color: #7653d1 !important;
+  }
+  
+  .course-backdrop .edit-course, .course-menu .course-price-and-publish .published-course,
+  .course-menu .course-price-and-publish .publish-course,
+  .course-menu .course-price-and-publish .course-publish .dropdown-menu,
+  .curriculum .section .btn.add-lecture,
+  .curriculum .add-section, .about-course .instructor .actions .btn, .choice-instructor-btn,
+  .public-navbar .controls .btn-sign-up, .sign-in-up-controls .controls .btn-sign-up, .instructors .new-instructor, .instructors .instructor .actions .btn,
+  .page .new-page, .no-have-courses .btn, body.brand-wizard #brand-wizards-area .btn:not(.btn-integration),
+  .devise-student-modal .devise-student-modal-btn, .preview-btn, .presentation-video-description .actions .btn,
+  #customers-list-courses .btn.btn-create-course,
+  .box-no-content .btn-no-content, #payment_instructions form.edit_customer .btn-integrations-create,
+  .add-presentation-video, .primary-button, .add-testimony-btn, .course.customer-course-list .course-image .course-status a.label.label-warning, #modal .btn-modal-form.btn-primary,
+  #yield-content .thumbnails .btn-inverse, #social_medias form.edit_brand .btn.btn-primary.btn-large,
+  .btn-create-course, #payment_instructions form.edit_customer .bnt-edit-course,
+  #confirmation-modal .modal-dialog .modal-footer .btn.btn-modal-form, .btn-create-custom-field,
+  .btn-export-students, .bootom-cookie-alert .button-box button, .swal2-styled.swal2-confirm, .uppy-ProgressBar-inner, .uppy-StatusBar-progress, .uppy-StatusBar.is-complete .uppy-StatusBar-progress {
+    background-color: #967bdc !important;
+  }
+  
+  .uppy-StatusBar-spinner {
+    fill: #967bdc !important;
+  }
+  
+  #ui-datepicker-div, .instructor-placeholder-highlight {
+    border-color: #6c679a!important;
+  }
+  
+  .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+    border-color: #b6a3e7 !important;
+  }
+  
+  .bottom-transparency{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.00), #f3f2fb) !important;
+    /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.00), #f3f2fb) !important;
+    /* Firefox 3.6 - 15 */
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.00), #f3f2fb) !important;
+    /* Opera 11.1 - 12 */
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.00), #f3f2fb) !important;
+  }
+  
+  .placeholder-presentation-video, .instructor-placeholder-highlight{
+    background-color: #cfcbef !important;
+  }
+  
+  
+  .flag-out-sale .triangle-bottomleft{border-bottom: 7px solid #7653d1;}
+  .flag-out-sale .base{background-color: #967bdc;}
+  .flag-out-sale .base:before{border-top: 13px solid #967bdc;}
+  
+  .vjs-play-control > div:before, .vjs-play-control > div:after, .vjs-play-control:hover div:before, .vjs-play-control:hover div:after{
+    color: #6c679a !important;
+  }
+  
+  .vjs-seek-handle, .vjs-seek-handle:hover, .vjs-play-progress{
+    background-color: #6c679a;
+  }
+  
+  .mail-brand-header{
+    background-image: url(https://d1xhm66bwx3o35.cloudfront.net/multipart/1280x365_max/33d3da4518c130dadb473fffc1ea71c8.PNG) no-repeat;
+    background-size: cover;
+    border-top-color: #6c679a !important;
+    border-bottom-color: #967bdc !important;
+  }
+  
+  .brand-mail-btn{
+    background-color: #967bdc !important;
+  }
+  
+  .brand-mail-primary-color{
+    color: #6c679a !important;
+  }
+  
+  .brand-mail-footer{
+    background-color: #967bdc !important;
+  }
+  
+  .brand-mail-footer .social-icons a.social-media{
+    background-color: #b6a3e7 !important;
+  }
+  
+  header .new-customer-nav li:hover .mainnav-item-link:after{
+    border-top-color: #6c679a !important;
+  }
+  
+  .course-menu .course-price-and-publish .dropdown-toggle, .course-menu .course-price-and-publish .course-publish .dropdown-menu{
+    background-color: #7c5bd3 !important;
+  }
+  
+  .course-menu .course-price-and-publish .course-publish .dropdown-menu .arrow-menu-up{
+    border-bottom-color: #7c5bd3 !important;
+  }
+  .course-menu .course-price-and-publish .make-enrollment{
+    background-color: #6c679a !important;
+  }
+</style>
+
+<!-- CSRF -->
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="p/t+Ahrlv1kWjx6Vo5b0XFAIudvObU+mKuj5wF8V8z/4vWi9F1MVKm4BLGhJMr3aXSadHBwB9Qf4IF2Iurctaw==" />
+<!-- Customer Stripe -->
+</head>
+<body class='brands'>
+<!-- Brand Google Tag Manager -->
+
+
+<header>
+
+<nav class='navbar navbar-default customer-nav customer-brand-nav' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='#navbar-collapse-1' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</div>
+<a class="brand navbar-brand" href="https://arieta-s-school.coursify.me/"></a>
+<div class='pull-left hidden-xs'>
+<div class='school-name'>arieta&#39;s School</div>
+<div class='edit-mode'>Edit mode</div>
+</div>
+<div class='collapse navbar-collapse' id='navbar-collapse-1'>
+<ul class='nav navbar-nav navbar-right control-account'>
+<li class='customer-info user-menu'>
+<div>
+<div class='profile-img-container'>
+<div class='info'>
+<span class='hello-customer'>Hello,</span>
+<span class='customer-name'>arieta</span>
+</div>
+<img class="customer-img" src="https://d2ffu0zq97rhm7.cloudfront.net/fallback/profile_image/nav_img_default.png" alt="Nav img default" />
+<div class='show-menu arrow-down'></div>
+</div>
+</div>
+<div class='customer-wrapper'>
+<div class='customer-menu-box'>
+<div class='arrow-menu-up'></div>
+<p class='customer-email'>arietarexhepi03@gmail.com</p>
+<p class='plan-box'>
+<a href="https://coursify.me/customer/brand/plans"><span class='plan starter'>Plan Starter</span>
+<span class='upgrade'>Upgrade now!</span>
+<span class='upgrade'></span>
+</a></p>
+<ul class='customer-actions'>
+<li>
+<a href="https://sso.coursify.me/users/edit">My Account</a>
+</li>
+<li>
+<a href="https://coursify.me/customer/brand/plans">Plans and Features</a>
+</li>
+<li>
+<a href="https://sso.coursify.me/my_account/billings">Payment History</a>
+</li>
+<li>
+<a href="https://sso.coursify.me/my_account/cards">Payment Methods</a>
+</li>
+<li>
+<a target="_blank" href="https://support.coursify.me">Help Center</a>
+</li>
+<li>
+<a id="customer-dashboard-logout" rel="nofollow" data-method="delete" href="/sign_out">Sign Out</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+<a id="sidebar-toogle-white" href="#"><span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a><nav class='navbar navbar-default brand-nav' role='navigation'>
+<div class='menu-block'></div>
+<div class='submenu-block'></div>
+<div class='container'>
+<button class='navbar-toggle' data-target='#navbar-collapse-2' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<div class='collapse navbar-collapse' id='navbar-collapse-2'>
+<ul class='nav navbar-nav navbar-left'></ul>
+</div>
+</div>
+</nav>
+<div class='new-customer-nav'>
+<div class='container'>
+<div class='mainnav mainnav-en' id='mainnav' role='navigation'>
+<ul>
+<li class='mainnav-item nav-li nav-li-js' id='mainnav-panel'>
+<a class="mainnav-item-link" href="/customer">Dashboard
+</a></li>
+<li class='mainnav-item nav-li nav-li-js' id='mainnav-my-school'>
+<a class="mainnav-item-link" href="https://arieta-s-school.coursify.me/">My school</a>
+<div class='nav-arrow nav-arrow-js'></div>
+<div class='subnav nav-sub nav-sub-js'>
+<ul class='subCMSListMenuUL' id='CMSListMenu2'>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink" href="https://arieta-s-school.coursify.me/">View school</a>
+</li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink" href="/customer/brand/students">Students</a>
+</li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink" href="https://arieta-s-school.coursify.me/instructors">Teachers</a>
+</li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink" href="https://coursify.me/customer/brand-wizard/basic-settings?edit_brand=true">Edit school</a>
+</li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink linkSecondColor" data-remote="true" href="/pages/new"><span aria-hidden='true' class='glyphicon glyphicon-plus'></span>
+Add page
+</a></li>
+</ul>
+</div>
+</li>
+<li class='mainnav-item nav-li nav-li-js' id='mainnav-my-courses'>
+<a class="mainnav-item-link" href="/customer/brand/courses">My courses</a>
+<div class='nav-arrow nav-arrow-js'></div>
+<div class='subnav nav-sub nav-sub-js'>
+<ul class='subCMSListMenuUL' id='CMSListMenu3'>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink" href="/customer/brand/courses">All courses</a>
+</li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink linkSecondColor" href="/customer/brand/orders">Orders
+</a></li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink linkSecondColor" href="/customer/brand/courses/archiveds">Archived
+<span class='label-new'>
+New
+</span>
+</a></li>
+<li class='subCMSListMenuLI'>
+<a class="subCMSListMenuLink linkSecondColor" id="create-a-new-course" data-remote="true" href="/courses/new"><span aria-hidden='true' class='glyphicon glyphicon-plus'></span>
+Add course
+</a></li>
+</ul>
+</div>
+</li>
+<li class='mainnav-item nav-li nav-li-js' id='mainnav-resources'>
+<a class="mainnav-item-link" href="#">Resources
+</a><div class='nav-arrow nav-arrow-js'></div>
+<div class='subnav nav-sub nav-sub-js'>
+<ul class='subCMSListMenuUL' id='CMSListMenu4'>
+<li class='subCMSListMenuLI' style=''>
+<a class="subCMSListMenuLink" href="/customer/brand/domains">Domains
+</a></li>
+<li class='subCMSListMenuLI' style=''>
+<a class="subCMSListMenuLink" href="/customer/brand/custom_fields">Custom fields
+</a></li>
+<li class='subCMSListMenuLI' style=''>
+<a class="subCMSListMenuLink" href="/customer/brand/integrations">Integrations
+</a></li>
+<li class='subCMSListMenuLI' style=''>
+<a class="subCMSListMenuLink" href="/customer/api/docs">API
+<span class='label-new'>
+New
+</span>
+</a></li>
+</ul>
+</div>
+</li>
+<li class='mainnav-item nav-li nav-li-js' id='mainnav-resources'>
+<a class="mainnav-item-link" href="#">Help Center
+<span class='label-new'>
+New
+</span>
+</a><div class='nav-arrow nav-arrow-js'></div>
+<div class='subnav nav-sub nav-sub-js'>
+<ul class='subCMSListMenuUL' id='CMSListMenu5'>
+<li class='subCMSListMenuLI' style=''>
+<a class="subCMSListMenuLink" target="_blank" href="https://support.coursify.me/">FAQ
+<span class='label-new'>
+New
+</span>
+</a></li>
+<li class='subCMSListMenuLI' style=''>
+<a class="subCMSListMenuLink" target="_blank" href="https://support.coursify.me/hc/requests/new">Open ticket
+<span class='label-new'>
+New
+</span>
+</a></li>
+</ul>
+</div>
+</li>
+<li class='mainnav-item nav-li nav-li-js' id='mainnav-upgrade'>
+<a class="mainnav-item-link" href="https://coursify.me/customer/brand/plans">Upgrade now!
+<span class='label-new'>
+New
+</span>
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</header>
+<div class='fixed-menu'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='brand-logo pull-left'>
+<div class='img-circle' style='background-image: url(https://d1xhm66bwx3o35.cloudfront.net/multipart/260x260_max/29b439612303d80c79b717e83e05bf36.PNG)'></div>
+</div>
+<div class='col-xs-10 col-sm-10 col-lg-11'>
+<div class='row'>
+<div class='col-xs-12'>
+<h2>arieta&#39;s School</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-10 hidden-overflow'>
+<ul class='brand-menu pull-left brand-menu-pages'>
+<li class='active'>
+<a href="/">Courses</a>
+</li>
+<li>
+<a href="/instructors">Teachers</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='static-backdrop'>
+<div class='container'>
+<div class='shadow'></div>
+<div class='row'>
+<div class='brand-logo'>
+<div class='img-circle' style='background-image: url(https://d1xhm66bwx3o35.cloudfront.net/multipart/260x260_max/29b439612303d80c79b717e83e05bf36.PNG)'></div>
+</div>
+<div class='col-xs-12 col-sm-offset-3 col-sm-9 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 brand-description'>
+<div class='edit-brand'>
+<a href="https://coursify.me/customer/brand-wizard/basic-settings?edit_brand=true"><span class='fui-new'></span>
+Edit information
+</a></div>
+<h1 class='brand-title'>arieta&#39;s School</h1>
+<h2 class='brand-subtitle'>Learn online with arieta</h2>
+<div class='social-icons'>
+<a class="change-social-media" data-remote="true" href="/social_medias/edit"><span class='fui-new'></span>
+Add social media
+</a><a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/facebook-73e19a847ca0bc084b1701cd035f00fc.png)" class="social-media disabled facebook" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/twitter-bf565f4789fc36d7427ecb7c1c9560d2.png)" class="social-media disabled twitter" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/youtube-8788013de4b8f027b297dd2003491f06.png)" class="social-media disabled youtube" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/linkedin-42d3164c0757af321ee1f5e5e0442b71.png)" class="social-media disabled linkedin" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/instagram-62fc02dd72f4b712ffc03ab6f001c9de.png)" class="social-media disabled instagram" data-remote="true" href="/social_medias/edit"></a>
+</div>
+
+</div>
+</div>
+<div class='row brand-menu-row'>
+<div class='col-xs-12 col-sm-offset-3 col-sm-9 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 brand-menu-box'>
+<ul class='brand-menu brand-menu-pages'>
+<li class='active slick-slide'>
+<a href="/">Courses</a>
+</li>
+<li class='slick-slide'>
+<a href="/instructors">Teachers</a>
+</li>
+<li class='slick-slide'>
+<a data-remote="true" href="https://arieta-s-school.coursify.me/pages/new"><span aria-hidden='true' class='glyphicon glyphicon-plus'></span>
+Add page
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='bottom-shadow'></div>
+
+
+<div class='container main-container'>
+<div class='brand-sidebar-menu'>
+<div class='customer-header'>
+<a id="sidebar-toogle" href="#"><img src="https://d3orlcfe999ser.cloudfront.net/assets/toogle-sidebar-1f4eb5be6df0e6e5a988c591afb5c5b1.png" alt="Toogle sidebar" /></a>
+<div class='controls'>
+<div class='customer-info'>
+<div>
+<a class="profile-img-container" href="https://sso.coursify.me"><img class="img-circle customer-img" src="https://d2ffu0zq97rhm7.cloudfront.net/fallback/profile_image/nav_img_default.png" alt="Nav img default" /></a>
+<div class='info'>
+<span class='name'>arieta</span>
+<a id="customer-dashboard-logout" rel="nofollow" data-method="delete" href="/sign_out">Sign Out</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='school-box'>
+<div class='title'>arieta&#39;s School</div>
+<div class='edit-mode'>Edit mode</div>
+<div class='edit-mode'></div>
+</div>
+<div class='school-box-detail'></div>
+<ul class='links'>
+<li>
+<a href="/customer">Dashboard</a>
+</li>
+<li>
+<a href="/customer/brand/orders">Orders</a>
+</li>
+<li>
+<a href="https://arieta-s-school.coursify.me/">My school</a>
+</li>
+<li>
+<a href="/customer/brand/courses">Courses</a>
+</li>
+<li>
+<a href="https://arieta-s-school.coursify.me/instructors">Teachers</a>
+</li>
+<li>
+<a href="/customer/brand/students">Students</a>
+</li>
+<li>
+<a href="/customer/brand/integrations">Integrations</a>
+</li>
+<li>
+<a href="/customer/brand/domains">Domains</a>
+</li>
+<li>
+<a href="/customer/brand/custom_fields">Custom fields</a>
+</li>
+<li>
+<a data-remote="true" href="/courses/new"><span aria-hidden='true' class='glyphicon glyphicon-plus'></span>
+Add course
+</a></li>
+<li>
+<a data-remote="true" href="/pages/new"><span aria-hidden='true' class='glyphicon glyphicon-plus'></span>
+Add page
+</a></li>
+<li>
+<a href="https://coursify.me/customer/brand/plans">Plans and Features</a>
+</li>
+<li>
+<a href="https://sso.coursify.me/my_account/billings">Payment History</a>
+</li>
+<li>
+<a href="https://sso.coursify.me/my_account/cards">Payment Methods</a>
+</li>
+<li>
+<a href="https://sso.coursify.me/users/edit">My Account</a>
+</li>
+</ul>
+<div class='coursify-logo'>
+<img src="https://d3orlcfe999ser.cloudfront.net/assets/frontend/tec-coursify-mobile-e3b76009c5dd37290c9588951787c38c.png" alt="Tec coursify mobile" />
+</div>
+</div>
+
+
+<div class='col-sm-8 col-sm-offset-2 col-xs-12 no-have-courses text-center'>
+<span class='this-school-not-have editable' data-activator='.edit-activator' data-input-class='this-school-not-have-input' data-placeholder='Enter the text for appear here' data-url='/interface_texts/empty_course_list/update'>
+This school doesn&#39;t have courses yet!
+</span>
+<div class='edit-activator'></div>
+<a class="btn btn-primary" id="create-a-new-course" data-remote="true" href="/courses/new"><span aria-hidden='true' class='glyphicon glyphicon-plus'></span>
+Create my first course!
+</a></div>
+
+</div>
+<!-- Cookies message -->
+<div class='bootom-cookie-alert'>
+<div class='col-xs-9 col-md-11 txt-box'>
+<p>
+<strong>We use cookies</strong> to give you the best online experience. By using our website, you agree to our privacy policy. 
+<a target="_blank" href="https://arieta-s-school.coursify.me/privacy-policy">Learn more here.</a>
+</p>
+</div>
+<div class='col-xs-3 col-md-1 button-box'>
+<div class='row'>
+<button name="button" type="submit" onclick="setCookie(&#39;arieta-s-school&#39;)">Got it!</button>
+</div>
+</div>
+</div>
+
+<div class='bottom-menu bottom-menu-inverse'>
+<div class='container'>
+<div class='col-sm-6 col-md-4 col-xs-12 pull-left'>
+<div class='brand-description'>
+<h3>arieta&#39;s School</h3>
+<span class='subtitle'>Learn online with arieta</span>
+</div>
+<div class='social-media text-left text-xs-center'>
+<div class='social-icons'>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/facebook-73e19a847ca0bc084b1701cd035f00fc.png)" class="social-media disabled facebook" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/twitter-bf565f4789fc36d7427ecb7c1c9560d2.png)" class="social-media disabled twitter" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/youtube-8788013de4b8f027b297dd2003491f06.png)" class="social-media disabled youtube" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/linkedin-42d3164c0757af321ee1f5e5e0442b71.png)" class="social-media disabled linkedin" data-remote="true" href="/social_medias/edit"></a>
+<a style="background-image: url(https://d3orlcfe999ser.cloudfront.net/assets/frontend/social-icons-header/instagram-62fc02dd72f4b712ffc03ab6f001c9de.png)" class="social-media disabled instagram" data-remote="true" href="/social_medias/edit"></a>
+</div>
+
+</div>
+</div>
+<div class='col-sm-6 col-md-5 col-xs-12 pull-right pages'>
+<div class='col-md-6 col-sm-6 col-xs-12 default-pages'>
+<ul class='pull-right'>
+<li><a href="/">Courses</a></li>
+<li><a href="/instructors">Teachers</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='coursify-tec text-center'>
+<div class='wrapper'>
+<a id="change-plan-btn" data-remote="true" href="/customer/brand/brand_plans/new?open_dialog=change-plan-btn"><span class='coursify-tooltip fui-lock' data-toggle='tooltip' title='Upgrade your plan to remove the Coursify.me brand!'></span>
+</a><a target="_blank" href="http://coursify.me"><div class='technology'>Technology</div>
+<div class='img-div'><img id="absolute-footer-coursify" src="https://d3orlcfe999ser.cloudfront.net/assets/frontend/tec-coursify-d35205e0319436b474d97b889dd61f93.png" alt="Tec coursify" /></div>
+</a></div>
+</div>
+
+<div class='modal fade' data-backdrop='static' data-keyboard='false' data-replace='true' id='modal' tabindex='-1'>
+<div class='modal-dialog modal-lg'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close fui-cross' data-dismiss='modal' type='button'></button>
+<h5 id='modal-header'></h5>
+<div class='modal-header-content'></div>
+</div>
+<div class='modal-body' id='modal-body'></div>
+<div class='modal-footer' id='modal-footer'></div>
+</div>
+</div>
+</div>
+<div class='modal fade' data-backdrop='static' data-keyboard='false' data-replace='true' id='modal-md' tabindex='-1'>
+<div class='modal-dialog modal-md'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close fui-cross' data-dismiss='modal' type='button'></button>
+<h5 class='modal-header'></h5>
+<div class='modal-header-content'></div>
+</div>
+<div class='modal-body modal-body'></div>
+<div class='modal-footer modal-footer'></div>
+</div>
+</div>
+</div>
+<div class='modal fade' data-backdrop='static' data-keyboard='false' data-replace='true' id='devise-modal' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content well'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close fui-cross' data-dismiss='modal' type='button'></button>
+</div>
+<div class='modal-body row'></div>
+</div>
+</div>
+</div>
+
+
+<!-- Zendesk -->
+<!-- = render "layouts/shared/zendesk" if current_customer.present? -->
+<!-- Pingdom -->
+<script src="//rum-static.pingdom.net/pa-5ebeef088e83fa00150000dc.js" async></script>
+
+<!-- Google Translate -->
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'></script>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google-translate-element');
+  }
+</script>
+</body>
+</html>
